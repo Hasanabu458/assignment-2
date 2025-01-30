@@ -2,7 +2,7 @@
 .quicksand{
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
-    font-weight: weight;
+    font-weight: 600;
     font-style: normal;}
 
 .body{
@@ -394,24 +394,62 @@ line-height: 57.5px;
 letter-spacing: 0%;
 text-align: center;
     }
-    .first-card{
-        border-radius: 16px 16px 0px 0px;
-
-background: url(../asset/images/bg.png),rgb(217, 217, 217);
-    }
-   .button-1st{
     
+    
+    #novem-button{
+        font-family: Raleway;
+        font-size: 15.34px;
+        font-weight: 500;
+        line-height: 28.76px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: capitalize;
+    }
+   .button-1st{ margin-left: 40px;
+    margin-top: -200px;
+    padding: 10px 38px 10px 38px;
         color: rgb(255, 255, 255);
+
+        border-radius: 48px;
+
+background: rgb(60, 216, 232);
+
+    }
+    .cards-title{
+        color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 24px;
+font-weight: 700;
+line-height: 38.35px;
+letter-spacing: 0%;
+text-align: left;
+padding: 5px;
+    }
+    .img-containers img{
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 16px;
+    }
+    .img-containers {
+        width: 100%;
+position: relative;
+       overflow: hidden;
+        border-radius: 16px;
+
+        background: rgb(255, 255, 255);
+
+      
+    }
+    .card-text{
+        color: rgb(102, 102, 102);
 font-family: Raleway;
 font-size: 15.34px;
 font-weight: 500;
 line-height: 28.76px;
 letter-spacing: 0%;
-text-align: left;
-text-transform: capitalize;
-        border-radius: 47.93px;
-
-background: rgb(60, 216, 232);
+text-align: center;
     }
    .story-1{
 grid-area: story1;
@@ -433,11 +471,24 @@ grid-area: story5;
     .stories{
         background: url(../asset/images/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
 
-
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        padding: 60px 0px 60px 0px;
+        
     }
     .story-container{
         display: grid;
+ gap: 18px;
         grid-template-areas: 
         "story1  story2 story3"
-        "story1  story4 story5"
+        "story1  story4 story5";
+        
+    }
+    #img-stoer1{
+        border-radius: 16px 16px 0px 0px;
+
+        background: url(),rgb(217, 217, 217);
     }
