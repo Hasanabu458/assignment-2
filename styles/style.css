@@ -2,7 +2,7 @@
 .quicksand{
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;}
 
 .body{
@@ -423,19 +423,15 @@ font-weight: 700;
 line-height: 38.35px;
 letter-spacing: 0%;
 text-align: left;
-padding: 5px;
+padding: 8px;
     }
     .img-containers img{
         display: block;
         width: 100%;
-        height: auto;
-        object-fit: cover;
-        border-radius: 16px;
+      border-radius: 16px;
     }
     .img-containers {
         width: 100%;
-position: relative;
-       overflow: hidden;
         border-radius: 16px;
 
         background: rgb(255, 255, 255);
@@ -490,5 +486,5 @@ grid-area: story5;
     #img-stoer1{
         border-radius: 16px 16px 0px 0px;
 
-        background: url(),rgb(217, 217, 217);
+        background:rgb(217, 217, 217);
     }
