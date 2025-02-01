@@ -131,12 +131,13 @@ text-align: center;
 
     }
     @media screen and (max-width:576px) {
+     
         .navbar{
             
 display: flex;
 flex-direction: row;
-align-items: center;
-justify-content: space-between;
+margin: 0 auto;
+width: auto;
 
         }
         #logo{
@@ -149,6 +150,7 @@ justify-content: space-between;
         display: flex;
         flex-direction: column;
         }
+   
         
     }
     /* banner */
@@ -209,6 +211,42 @@ padding: 5px 25px;
     .banner{
         margin-bottom: 60px;
         margin-top: 0px;
+    }
+    @media screen and (max-width:576px) {
+.body{
+    position: relative;
+width: 390px;
+height: 3319px;
+background: rgb(255, 255, 255);
+padding: 10px;
+margin: 10px;
+
+}
+        .shool-banner{
+            display: flex;
+            flex-direction: column-reverse;
+        width: auto;
+            gap: 50px;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            
+        }
+
+        .btn-enroll{
+            align-items: center;
+        }
+.banner-details{ margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+.banner-img{
+    width: 90%;
+}
+
     }
     /* curricillam */
     .curriculam{
@@ -395,6 +433,21 @@ width: 60px;
 
 background: rgb(254, 163, 1);
     }
+
+@media screen and (max-width:576px) {
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        gap: 28px;
+
+    }
+    
+}
+
+
     /* stories */
     .story-title{
         color: rgb(0, 0, 0);
@@ -573,6 +626,84 @@ background: rgb(45, 28, 28);
     text-align: left;
     padding: 5px 10px 5px 10px;
  } 
+ @media screen and (max-width:576px) {
+
+    .story-container{
+        display: grid;
+ gap: 18px;
+        grid-template-areas: 
+        " story2 story3"
+        " story4 story5";
+        width: auto;
+    }
+    .story-1{
+        display: none;
+    }
+    .img-containers{
+        position: relative;
+width: 173.09px;
+height: 179.59px;
+    }
+.cards-titles{
+    color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 9.13px;
+font-weight: 700;
+line-height: 17.12px;
+letter-spacing: 0%;
+text-align: left;
+}
+#novem-button{
+    color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 9.13px;
+font-weight: 500;
+line-height: 17.12px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+}
+.btn-2nd{ display:inline-block;
+    border-radius: 28.54px;
+
+    background: rgb(149, 178, 38);
+    width: 103.91px;
+height: 22.83px;
+margin-top: -40px;
+}
+.btn-3ree{
+    border-radius: 28.54px;
+
+background: rgb(93, 88, 240);
+width: 103.91px;
+height: 22.83px;
+}
+.btn-4r{
+    display:inline-block;
+    border-radius: 28.54px;
+
+    background: rgb(93, 88, 240);
+    width: 103.91px;
+height: 22.83px;
+}
+.btn-5th{
+    display:inline-block;
+    margin-top: -50px;
+    border-radius: 28.54px;
+
+background: rgb(149, 178, 38);
+width: 75.88px;
+height: 22.83px;
+
+}
+
+ }
+
+
+
+
+
+ /* footer */
  .footer-container{
     display: flex;
     flex-direction: row;
@@ -596,6 +727,10 @@ height: 81.65px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
+ }
+ .para{
+    margin-top: 20px;
  }
  .footer-head{
     color: rgb(255, 255, 255);
@@ -606,7 +741,9 @@ line-height: 39.51px;
 letter-spacing: 0%;
 text-align: left;
  }
- .footer-para{ border: 0px solid;
+ .footer-para{
+   
+     border: 0px solid;
     width: 399.02px;
 height: 100px;
     color: rgb(255, 255, 255);
@@ -616,4 +753,72 @@ font-weight: 400;
 line-height: 25px;
 letter-spacing: 0%;
 text-align: left;
+ }.about-school{
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 24px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
  }
+ .footer-btn{
+  list-style: none;
+ padding: 0;
+ 
+ }
+ .li-btn{
+
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+    text-align: left;
+    
+ }
+ .second-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+ }
+ .footer-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+.third-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.keep-touch{
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 26px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.logo-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+@media screen and (max-width:576px) {
+
+
+
+
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        padding-left: 8px;
+    }
+}
